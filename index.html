@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agape Dental Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader"><div class="spinner"></div></div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-top">
+      <img src="logo.jpg" alt="Agape Dental Studio Logo" class="logo" />
+      <div class="contact-info">
+        <span><i class="fas fa-phone"></i> (703) 979-7979</span>
+        <span><i class="fas fa-envelope"></i> agapedentalva@gmail.com</span>
+        <span><i class="fas fa-map-marker-alt"></i> 5555 Columbia Pike Ste 102, Arlington, VA 22204</span>
+      </div>
+      <div class="hours">
+        <h4>Open Hours</h4>
+        <ul>
+          <li><strong>Mon, Tue, Fri:</strong> 8:30am – 5:00pm</li>
+          <li><strong>Wed & Thu:</strong> 9:30am – 6:00pm</li>
+          <li><strong>Saturday:</strong> 7:30am – 3:00pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <nav>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#patient-info">Patient Info</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="book-btn">Book Appointment</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 id="heroTitle">Caring For Your Smile With Excellence</h1>
+      <p>Your trusted dental studio in Arlington, Virginia</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Meet Our Doctors</h2>
+    <div class="doctors">
+      <div class="doctor">
+        <img src="Dr. Lidia Tekle.jpg" alt="Dr. Lidia Tekle">
+        <h3>Dr. Lidia Tekle</h3>
+        <p>Founder of Agape Dental Studio, Dr. Tekle brings years of compassionate dental care with a focus on excellence and integrity.</p>
+      </div>
+      <div class="doctor">
+        <img src="Dr. Bunmi Olusada.jpg" alt="Dr. Bunmi Olusada">
+        <h3>Dr. Bunmi Olusada</h3>
+        <p>Passionate about patient comfort and quality care, Dr. Olusada specializes in providing outstanding dental experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service">
+        <h3>Cosmetic Dentistry</h3>
+        <p>Whitening, veneers, and smile design to enhance your confidence.</p>
+      </div>
+      <div class="service">
+        <h3>General Dentistry</h3>
+        <p>Routine exams, cleanings, and preventative care for all ages.</p>
+      </div>
+      <div class="service">
+        <h3>Restorative Dentistry</h3>
+        <p>Fillings, crowns, and dental implants to restore your oral health.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patient Info -->
+  <section id="patient-info">
+    <h2>New Patients</h2>
+    <p>Welcome to Agape Dental Studio! We provide a relaxed environment and personalized care. Download patient forms, check insurance info, and contact us with any questions.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> (703) 979-7979</p>
+    <p><strong>Email:</strong> agapedentalva@gmail.com</p>
+    <p><strong>Address:</strong> 5555 Columbia Pike Ste 102, Arlington, VA 22204</p>
+    <p><strong>Office Hours:</strong></p>
+    <ul>
+      <li>Mon, Tue, Fri: 8:30am – 5:00pm</li>
+      <li>Wed & Thu: 9:30am – 6:00pm</li>
+      <li>Saturday: 7:30am – 3:00pm</li>
+    </ul>
+  </section>
+
+  <button class="floating-cta" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Need Help?</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
